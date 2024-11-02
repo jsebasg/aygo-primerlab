@@ -1,4 +1,4 @@
-# Aplicación de Lista de Llegadas
+# Aplicación basica
 
 Este proyecto consiste en una aplicación simple diseñada para practicar conceptos de virtualización y programación distribuida. Demuestra el despliegue completo de una aplicación Java con Spring Boot, contenerizada con Docker y desplegada en AWS. La aplicacion ejecuuta un hello world unicamente para verificar el despliegue exitoso
 
@@ -123,12 +123,15 @@ Este formato garantiza que el código esté correctamente indentado y legible en
 1. Accede a la aplicación localmente(apuntando a los contenedores):
    
    http://localhost:34000/greeting
+   
    ![img_2.png](imgs/img_2.png)
    
    http://localhost:34001/greeting
+   
    ![img_1.png](imgs/img_1.png)
 
    http://localhost:34002/greeting
+   
    ![img.png](imgs/img.png)
    
 
@@ -136,4 +139,5 @@ Este formato garantiza que el código esté correctamente indentado y legible en
 1. Accede a la aplicación desplegada en AWS:
    
    http://<TU_IP_EC2>:42000/greeting
+   
    ![img_4.png](imgs/img_4.png)
